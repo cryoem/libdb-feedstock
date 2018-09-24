@@ -13,11 +13,11 @@ source:
 
 build:
   number: 2001
-  skip: True  # [win]
+  skip: True  # [win and vc<14]
 
 requirements:
   build:
-    - make
+    - make                  # [unix]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
