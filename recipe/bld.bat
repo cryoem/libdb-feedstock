@@ -14,7 +14,7 @@ if %ARCH% == 32 (
     set ARCH_STRING=x64
 )
 
-msbuild %SLN_FILE% /p:Configuration=Release /p:Platform=%ARCH_STRING% /MD /MDd
+msbuild %SLN_FILE% /p:Configuration=Release /p:Platform=%ARCH_STRING% /p:CL_MPCount
 IF %ERRORLEVEL% NEQ 0 exit 1
 
 robocopy %ARCH_STRING%\Release\ %LIBRARY_BIN%
