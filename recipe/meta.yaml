@@ -13,7 +13,7 @@ source:
 
 build:
   number: 2001
-  skip: True  # [win and vc<14]
+  skip: True  # [unix or vc<14]
 
 # NOTE: on windows, there's a very strange set of build issues.
 #     If you run the VS2008 build, you need to do so as a normal user, or else you get permission errors on the TEMP folder.
