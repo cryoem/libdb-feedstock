@@ -12,7 +12,7 @@ source:
     - src_dbinc_atomic.h.patch  # [osx]
 
 build:
-  number: 2001
+  number: 2002
   skip: True  # [unix or vc<14]
 
 # NOTE: on windows, there's a very strange set of build issues.
