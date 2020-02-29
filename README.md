@@ -16,20 +16,6 @@ Current build status
 
 
 <table><tr>
-    <td>CircleCI</td>
-    <td>
-      <a href="https://circleci.com/gh/cryoem/libdb-feedstock">
-        <img alt="Linux" src="https://img.shields.io/circleci/project/github/cryoem/libdb-feedstock/master.svg?label=Linux">
-      </a>
-    </td>
-  </tr><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://travis-ci.org/cryoem/libdb-feedstock">
-        <img alt="macOS" src="https://img.shields.io/travis/cryoem/libdb-feedstock/master.svg?label=macOS">
-      </a>
-    </td>
-  </tr><tr>
     <td>Appveyor</td>
     <td>
       <a href="https://ci.appveyor.com/project/cryoem/libdb-feedstock/branch/master">
@@ -50,20 +36,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux</td>
-              <td>
-                <a href="https://dev.azure.com/cryoem/feedstock-builds/_build/latest?definitionId=blank&branchName=master">
-                  <img src="https://dev.azure.com/cryoem/feedstock-builds/_apis/build/status/libdb-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx</td>
-              <td>
-                <a href="https://dev.azure.com/cryoem/feedstock-builds/_build/latest?definitionId=blank&branchName=master">
-                  <img src="https://dev.azure.com/cryoem/feedstock-builds/_apis/build/status/libdb-feedstock?branchName=master&jobName=osx&configuration=osx_" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>win_c_compilervs2015cxx_compilervs2015vc14</td>
               <td>
                 <a href="https://dev.azure.com/cryoem/feedstock-builds/_build/latest?definitionId=blank&branchName=master">
@@ -74,6 +46,18 @@ Current build status
           </tbody>
         </table>
       </details>
+    </td>
+  </tr>
+  <tr>
+    <td>Linux</td>
+    <td>
+      <img src="https://img.shields.io/badge/linux-disabled-lightgrey.svg" alt="linux disabled">
+    </td>
+  </tr>
+  <tr>
+    <td>OSX</td>
+    <td>
+      <img src="https://img.shields.io/badge/OSX-disabled-lightgrey.svg" alt="OSX disabled">
     </td>
   </tr>
   <tr>
