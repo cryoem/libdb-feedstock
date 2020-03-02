@@ -1,3 +1,5 @@
+@echo on
+
 pushd build_windows
 
 IF "%vc%" == "9" (
@@ -14,7 +16,7 @@ if %ARCH% == 32 (
     set ARCH_STRING=x64
 )
 
-msbuild %SLN_FILE% /p:Configuration=Release /p:Platform=%ARCH_STRING% /p:CL_MPCount
+msbuild %SLN_FILE% /p:Configuration=Release /p:Platform=%ARCH_STRING% /p:RuntimeLib=static_library
 IF %ERRORLEVEL% NEQ 0 exit 1
 
 robocopy %ARCH_STRING%\Release\ %LIBRARY_BIN%
